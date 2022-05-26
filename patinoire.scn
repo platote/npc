@@ -1,0 +1,131 @@
+{
+  "objects": [
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "ambient",
+        "args": [[255, 255, 255], 2]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "directional",
+        "args": [[255, 255, 255], 2],
+        "position": [1, 2, 3]
+      }
+    },
+    {
+      "type": "application/rendersettings",
+      "content": {
+        "fog": {
+          "fogType": "exp",
+          "args": [[255, 255, 255], 0.01]
+        },
+        "ssao": {
+          "kernelSize": 1024,
+          "kernelRadius": 16,
+          "minDistance": 0.001,
+          "maxDistance": 2
+        },
+        "dof": {
+          "focus": 1.5,
+          "aperture": 0.0004,
+          "maxblur": 0.01
+        }
+      }
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/atmospheric-sky/"
+    },
+    {
+      "position": [0,0,0],
+      "start_url": "/platote_assets/boutique/",
+      "dynamic": true
+    },
+        {
+      "position": [1,0.5,10],
+      "start_url": "/platote_assets/npc/", 
+      "components": [
+        {
+          "key": "name",
+          "value": "Loomdart"
+        },
+        {
+          "key": "voice",
+          "value": "Cadance"
+        },
+        {
+          "key": "avatarUrl",
+          "value": "/avatars/vrm_platote_06.vrm"
+        },
+        {
+          "key": "bio",
+          "value": "His nickname is DRK. 15/M hacker. Loves guns. Likes plotting new hacks. He has the best equipment and is always ready for a fight."
+        }
+      ]
+    },
+    {
+      "position": [3,0.5,10],
+      "start_url": "/platote_assets/npc/", 
+      "components": [
+        {
+          "key": "name",
+          "value": "Loomdart"
+        },
+        {
+          "key": "voice",
+          "value": "Cadance"
+        },
+        {
+          "key": "avatarUrl",
+          "value": "/avatars/yellow_vrm_toon_16.vrm"
+        },
+        {
+          "key": "bio",
+          "value": "His nickname is DRK. 15/M hacker. Loves guns. Likes plotting new hacks. He has the best equipment and is always ready for a fight."
+        }
+      ]
+    },
+     {
+      "position": [2,0.5,10],
+      "start_url": "/platote_assets/npc/", 
+      "components": [
+        {
+          "key": "name",
+          "value": "Loomdart"
+        },
+        {
+          "key": "voice",
+          "value": "Cadance"
+        },
+        {
+          "key": "avatarUrl",
+          "value": "/avatars/loom.vrm"
+        },
+        {
+          "key": "bio",
+          "value": "His nickname is DRK. 15/M hacker. Loves guns. Likes plotting new hacks. He has the best equipment and is always ready for a fight."
+        }
+      ]
+    },
+    {
+      "position": [0,0.6,12],
+      "start_url": "/platote_assets/wearables/head/glasses/"
+    },
+        {
+      "position": [
+        0,
+        0,
+        -2
+      ],
+      "start_url": "https://webaverse.github.io/mirror/", 
+      "dynamic": false
+    }
+  ]
+}
